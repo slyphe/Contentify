@@ -30,7 +30,7 @@
     {!! HTML::style(HTML::versionedAssetPath('css/frontend.css')) !!}
 
     {!! HTML::jsTranslations() !!}
-    {!! HTML::script('vendor/jquery/jquery-2.2.4.min.js') !!}
+    {!! HTML::script('vendor/jquery/jquery-3.3.1.min.js') !!}
     {!! HTML::script('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js') !!}
     {!! HTML::script('vendor/contentify/contentify.js') !!}
     {!! HTML::script('vendor/contentify/frontend.js') !!}

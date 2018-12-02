@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" type="picture/x-icon" href="{!! asset('favicon.png') !!}">
 
-    {!! HTML::script('vendor/jquery/jquery-2.2.4.min.js') !!}
+    {!! HTML::script('vendor/jquery/jquery-3.3.1.min.js') !!}
     
     <style type="text/css">
         @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);

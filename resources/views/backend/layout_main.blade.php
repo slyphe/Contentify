@@ -28,7 +28,7 @@
     {!! HTML::style('vendor/bootstrap-tagsinput/bootstrap-tagsinput.css') !!}
     
     {!! HTML::jsTranslations() !!}
-    {!! HTML::script('vendor/jquery/jquery-2.2.4.min.js') !!}
+    {!! HTML::script('vendor/jquery/jquery-3.3.1.min.js') !!}
     {!! HTML::script('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js') !!}
     {!! HTML::script('vendor/moment/moment.js') !!}
     {!! HTML::script('vendor/bootstrap-datetimepicker/bootstrap-datetimepicker.js') !!}
