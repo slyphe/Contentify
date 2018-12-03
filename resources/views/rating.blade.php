@@ -46,7 +46,7 @@
                             foreigntype: foreignType, 
                             foreignid: foreignId
                         }
-                    }).success(function(data)
+                    }).done(function(data)
                     {
                         $('.rating .stars i').removeClass('fas').addClass('far');
                         $('.rating .stars i:lt(' + rating + ')').removeClass('far')

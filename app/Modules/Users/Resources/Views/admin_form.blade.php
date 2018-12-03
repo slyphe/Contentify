@@ -25,7 +25,7 @@
         $.ajax({
             url: contentify.baseUrl + 'admin/users/{!! $model->id !!}}/' + activate,
             type: 'POST'
-        }).success(function(data)
+        }).done(function(data)
         {
             $self.get(0).checked = !!(+data);
 

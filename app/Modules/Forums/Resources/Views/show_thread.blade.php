@@ -77,7 +77,7 @@
             $.ajax({
                 url: contentify.baseUrl + 'forums/posts/' + id,
                 type: 'GET'
-            }).success(function(post)
+            }).done(function(post)
             {
                 $textarea.val($textarea.val() + '[quote' + creator + ']' + post.text + '[/quote]\n').focus();
             }).fail(function(response)
