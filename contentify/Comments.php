@@ -14,7 +14,7 @@ class Comments
     /**
      * Directly outputs comments and the comment form.
      * 
-     * @param string $foreignType Identifier for the content the comments are related to (usually a model class)
+     * @param string $foreignType Identifier for the content type the comments are related to (usually a model class)
      * @param int    $foreignId   ID, if the comments are related to a certain model instance
      * @return void
      */

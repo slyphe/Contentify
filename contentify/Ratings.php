@@ -23,7 +23,7 @@ class Ratings
     /**
      * Directly outputs the rating HTML code.
      * 
-     * @param  string $foreignType Identifier for the content the rating is related to (usually a model class)
+     * @param  string $foreignType Identifier for the content type the rating is related to (usually a model class)
      * @param  int    $foreignId   ID, if the rating is related to a certain model instance
      * @return string
      */
